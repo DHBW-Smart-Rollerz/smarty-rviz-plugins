@@ -1,0 +1,7 @@
+<library path="dynamic_ground_image">
+  <class name="dynamic_ground_image::DynamicGroundImage" type="dynamic_ground_image::DynamicGroundImage" base_class_type="rviz_common::Display">
+    <description>
+      A plugin to display a ground image in RViz2.
+    </description>
+  </class>
+</library>

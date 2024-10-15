@@ -1,0 +1,35 @@
+<package format="2">
+  <name>dynamic_ground_image</name>
+  <version>0.1.0</version>
+  <description>Dynamic Ground Image RViz Plugin.</description>
+  <maintainer email="75214791+Super-T02@users.noreply.github.com">Tom Freudenmann</maintainer>
+  <license>MIT</license>
+
+  <!-- Build tool dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Build dependencies -->
+  <build_depend>rclcpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>rviz_common</build_depend>
+  <build_depend>rviz_rendering</build_depend>
+  <build_depend>pluginlib</build_depend>
+
+  <!-- Execution dependencies -->
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>rviz_common</exec_depend>
+  <exec_depend>rviz_rendering</exec_depend>
+  <exec_depend>pluginlib</exec_depend>
+  <exec_depend>rviz_default_plugins</exec_depend>
+  <depend>rviz_ogre_vendor</depend>
+  <depend>rviz_rendering_tests</depend>
+
+  <!-- Export plugin description -->
+  <export>
+    <rviz plugin="plugin_description.xml"/>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
